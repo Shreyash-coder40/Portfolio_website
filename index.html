@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Primary Meta Tags -->
+  <title>Shreyash Debnath | Full-Stack Software Engineer &amp; AI Systems</title>
+  <meta name="title" content="Shreyash Debnath | Full-Stack Software Engineer &amp; AI Systems" />
+  <meta name="description" content="Portfolio of Shreyash Debnath - B.Tech Software Engineering (CGPA 9.3/10) at NIAT VGU Jaipur. Building production Next.js apps, Gemini AI agents, and C++ DSA solutions. Open to internships." />
+  <meta name="keywords" content="Shreyash Debnath, Software Engineer, Full Stack Developer, Next.js, React, Python, C++, DSA, LeetCode, NIAT Jaipur, Portfolio, Web Development, Generative AI" />
+  <meta name="author" content="Shreyash Debnath" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#00f5d4" />
+  <link rel="canonical" href="https://shreyash-coder40.github.io/" />
+
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shreyash-coder40.github.io/" />
+  <meta property="og:title" content="Shreyash Debnath | Full-Stack Software Engineer &amp; AI Systems" />
+  <meta property="og:description" content="B.Tech Software Engineering (CGPA 9.3/10) at NIAT Jaipur. Building Next.js applications, Gemini AI agents, and C++ DSA solutions. Available for internships." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="Shreyash Debnath - Full-Stack Software Engineer Portfolio Preview" />
+  <meta property="og:site_name" content="Shreyash Debnath Portfolio" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://shreyash-coder40.github.io/" />
+  <meta name="twitter:title" content="Shreyash Debnath | Full-Stack Software Engineer &amp; AI Systems" />
+  <meta name="twitter:description" content="B.Tech Software Engineering (CGPA 9.3/10) at NIAT Jaipur. Building Next.js applications, Gemini AI agents, and C++ DSA solutions. Available for internships." />
+  <meta name="twitter:image" content="assets/og-image.png" />
+  <meta name="twitter:image:alt" content="Shreyash Debnath - Full-Stack Software Engineer Portfolio Preview" />
+
+  <!-- JSON-LD Structured Data (Schema.org Person & Portfolio) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shreyash Debnath",
+    "url": "https://shreyash-coder40.github.io/",
+    "jobTitle": "Full-Stack Software Engineer",
+    "email": "shreyashdebnath2@gmail.com",
+    "image": "assets/og-image.png",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "NIAT VGU Jaipur"
+    },
+    "sameAs": [
+      "https://github.com/Shreyash-coder40",
+      "https://www.linkedin.com/in/shreyash-debnath-a3a258327/",
+      "https://leetcode.com/u/shreyash-coder40/"
+    ],
+    "knowsAbout": [
+      "Full-Stack Development",
+      "Data Structures and Algorithms",
+      "Next.js",
+      "React",
+      "Python",
+      "C++",
+      "Generative AI",
+      "PostgreSQL",
+      "MongoDB"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23050b12'/><text x='50' y='64' font-size='44' font-family='sans-serif' font-weight='900' text-anchor='middle' fill='%2300f5d4'>SD<tspan fill='%23ffffff'>.</tspan></text></svg>" />
+  <script>
+    (function(){
+      var t = localStorage.getItem('portfolio_theme_accent') || 'cyan';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css?v=54" />
+</head>
+<body>
+  <!-- Custom Neon Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+  <canvas id="cursor-trail-canvas"></canvas>
+
+  <!-- Global Living Animated Background -->
+  <div class="global-bg-fx" aria-hidden="true">
+    <div class="cyber-grid-mesh"></div>
+    <div class="aurora-orb aurora-orb-1"></div>
+    <div class="aurora-orb aurora-orb-2"></div>
+    <div class="aurora-orb aurora-orb-3"></div>
+    <div class="aurora-orb aurora-orb-4"></div>
+    <div class="ambient-cursor-glow" id="ambient-cursor-glow"></div>
+    <div class="global-vignette"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand-group">
+        <a href="#home" class="nav-logo">SD<span class="logo-dot">.</span></a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#journey" class="nav-link">Journey</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-mobile-resume"><a href="assets/shreyash-resume.pdf" target="_blank" class="nav-link nav-resume-link"><span>📄 Download Resume (PDF)</span> <span>↗</span></a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Resume Quick Button -->
+        <a href="assets/shreyash-resume.pdf" target="_blank" class="nav-resume-pill" id="nav-resume-btn" title="View / Download Resume (PDF)">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Cyber Theme Accent Switcher -->
+        <div class="theme-switcher-wrap" id="theme-switcher">
+          <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Customize accent color" title="Change Cyber Accent Color">
+            <span class="theme-swatch-current" id="current-theme-swatch"></span>
+            <span class="theme-btn-label">Theme</span>
+            <svg viewBox="0 0 24 24" class="theme-chevron" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="theme-dropdown" id="theme-dropdown" role="menu" aria-label="Theme Accent Palette">
+            <div class="theme-dropdown-title">Cyber Accent</div>
+            <div class="theme-options">
+              <button type="button" class="theme-opt active" data-set-theme="cyan" role="menuitem" title="Neon Cyan (Default)">
+                <span class="theme-dot dot-cyan"></span>
+                <span class="theme-name">Neon Cyan</span>
+                <span class="theme-check">✓</span>
+              </button>
+              <button type="button" class="theme-opt" data-set-theme="violet" role="menuitem" title="Cyber Violet">
+                <span class="theme-dot dot-violet"></span>
+                <span class="theme-name">Cyber Violet</span>
+                <span class="theme-check">✓</span>
+              </button>
+              <button type="button" class="theme-opt" data-set-theme="emerald" role="menuitem" title="Matrix Emerald">
+                <span class="theme-dot dot-emerald"></span>
+                <span class="theme-name">Matrix Emerald</span>
+                <span class="theme-check">✓</span>
+              </button>
+              <button type="button" class="theme-opt" data-set-theme="amber" role="menuitem" title="Solar Amber">
+                <span class="theme-dot dot-amber"></span>
+                <span class="theme-name">Solar Amber</span>
+                <span class="theme-check">✓</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audio & Cyber Sound FX Toggle Button -->
+        <button type="button" class="sound-toggle-btn" id="sound-toggle-btn" aria-label="Toggle Cyber Sound Effects" title="Enable Cyber Sound FX (Synthesized Sci-Fi Audio)">
+          <span class="sound-icon" id="sound-icon">🔇</span>
+          <span class="sound-label">FX</span>
+        </button>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div id="particles" class="hero-particles"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-hire-pill">
+          <span class="hire-pulse-dot"></span>
+          <span class="hire-pill-text">Available for Hire &bull; 2026 Internships</span>
+        </div>
+        <h1 class="hero-name">
+          <span class="hero-hello">Hello, I'm</span>
+          <span class="hero-name-neon">Shreyash</span>
+        </h1>
+        <div class="hero-typewriter">
+          <span class="type-prefix">I am a</span>
+          <span class="type-badge">
+            <span id="typewriter" class="type-text">Full Stack Developer</span><span class="type-cursor">|</span>
+          </span>
+        </div>
+        <p class="hero-desc">Software Engineering Undergraduate (CGPA 9.3/10) &bull; Full-Stack &amp; AI Systems &bull; Multi-Hackathon Finalist 🏆</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="assets/shreyash-resume.pdf" target="_blank" class="btn btn-outline hero-resume-btn" id="hero-resume-btn" title="View Official Resume PDF">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+            <span>Resume (PDF)</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Shreyash-coder40" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg></a>
+          <a href="https://www.linkedin.com/in/shreyash-debnath-0719a93a1" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://leetcode.com/u/shreyash-coder40/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LeetCode"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.762-1.823.762s-1.357-.295-1.824-.762L4.015 14.8c-.467-.467-.762-1.111-.762-1.823s.295-1.357.762-1.824l5.743-5.744c.467-.467 1.111-.762 1.824-.762s1.357.295 1.823.762l2.697 2.607a1.05 1.05 0 0 0 1.487-1.487l-2.697-2.607C13.567 3.033 12.164 2.5 10.582 2.5s-2.985.533-4.07 1.618L.769 9.862C-.316 10.947-.85 12.35-.85 13.932s.534 2.985 1.619 4.07l5.743 5.743c1.085 1.086 2.488 1.619 4.07 1.619s2.985-.533 4.07-1.619l2.697-2.607a1.05 1.05 0 1 0-1.447-1.517zM10.825 13.932h11.125a1.05 1.05 0 1 0 0-2.1H10.825a1.05 1.05 0 1 0 0 2.1z"/></svg></a>
+          <a href="mailto:shreyashdebnath2@gmail.com" class="social-icon" aria-label="Email" title="Email shreyashdebnath2@gmail.com"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="assets/shreyash-passport.png?v=5" alt="Shreyash Debnath" class="hero-portrait" />
+      </div>
+    </div>
+    <div class="hero-scroll-indicator"><div class="scroll-mouse"><div class="scroll-dot"></div></div><span>Scroll Down</span></div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get To Know Me</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-img-wrapper">
+            <div class="about-img-bg"></div>
+            <img src="assets/shreyash-suit.jpg?v=1" alt="Shreyash Debnath" class="about-photo" />
+            <div class="about-exp-badge"><span class="exp-num">2+</span><span class="exp-label">Years Coding</span></div>
+          </div>
+        </div>
+        <div class="about-content-col">
+          <h3 class="about-hello">Hi there! 👋</h3>
+          <p class="about-bio">I am <strong>Shreyash Debnath</strong>, a <span class="accent">Software Engineering Undergraduate (CGPA 9.3/10)</span> at <strong>NIAT VGU Jaipur</strong> who turns ideas into working products — from AI-powered storefronts and secure payment flows to sensor-driven IoT systems.</p>
+          <p class="about-bio">I build with <strong>Next.js, Python, Supabase, Firebase</strong>, and lead teams at hackathons from first idea to live demo. Passionate about <strong>Data Structures &amp; Algorithms</strong> (1500+ LeetCode rating) and looking for backend or software development internships to build reliable software.</p>
+          <div class="about-info-grid">
+            <div class="about-info-item"><span class="info-label">🎓 Degree</span><span class="info-value">B.Tech (Software Engg)</span></div>
+            <div class="about-info-item"><span class="info-label">📊 CGPA</span><span class="info-value accent-green">9.3 / 10 (2nd Year)</span></div>
+            <div class="about-info-item"><span class="info-label">🏫 College</span><span class="info-value">NIAT VGU, Jaipur</span></div>
+            <div class="about-info-item"><span class="info-label">📍 Location</span><span class="info-value">Jaipur, Rajasthan</span></div>
+            <div class="about-info-item"><span class="info-label">🎯 Focus</span><span class="info-value">Full-Stack &amp; AI Systems</span></div>
+            <div class="about-info-item"><span class="info-label">🚀 Status</span><span class="info-value accent-green">Open to Internships</span></div>
+          </div>
+          <div class="about-cta">
+            <a href="assets/shreyash-resume.pdf" target="_blank" download="Shreyash_Debnath_Resume.pdf" class="btn btn-primary" id="download-cv-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Resume</span>
+            </a>
+            <button type="button" class="btn btn-outline" id="preview-resume-trigger">
+              <span>👁️ Preview Online</span>
+            </button>
+            <a href="#contact" class="btn btn-outline">Let us Connect</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECH JOURNEY ===== -->
+  <section class="journey" id="journey">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic & Tech Progression</span>
+        <h2 class="section-title">My Tech <span class="accent">Journey</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-track"></div>
+
+        <!-- 1st Semester -->
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <span class="dot-inner"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-sem-pill">1st Semester &bull; Year 1</div>
+              <span class="timeline-year"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/></svg> 2025</span>
+            </div>
+            <ul class="journey-points">
+              <li><strong>Web &amp; Backend:</strong> HTML, CSS, and Backend development with Python</li>
+              <li><strong>Generative AI:</strong> Hands-on with Hugging Face Spaces &amp; Suno.ai</li>
+              <li><strong>Automation:</strong> n8n automation workflows &amp; webhook pipelines</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="t-tag">HTML</span>
+              <span class="t-tag">CSS</span>
+              <span class="t-tag">Python Backend</span>
+              <span class="t-tag">Hugging Face</span>
+              <span class="t-tag">Suno.ai</span>
+              <span class="t-tag">n8n Automation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd Semester -->
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <span class="dot-inner"></span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-sem-pill">2nd Semester &bull; Year 1</div>
+              <span class="timeline-year"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/></svg> 2026</span>
+            </div>
+            <ul class="journey-points">
+              <li><strong>Frontend &amp; Systems:</strong> React framework, JavaScript in depth, and started C++ journey</li>
+              <li><strong>Databases:</strong> Relational (SQL) and Non-Relational (MongoDB / NoSQL) databases</li>
+              <li><strong>GenAI &amp; LLMs:</strong> LLM Architecture, Tokenisation, Embeddings, Prompt techniques &amp; RAG Chains</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="t-tag">JavaScript (In-Depth)</span>
+              <span class="t-tag">React.js</span>
+              <span class="t-tag">C++</span>
+              <span class="t-tag">SQL</span>
+              <span class="t-tag">NoSQL / MongoDB</span>
+              <span class="t-tag">LLMs</span>
+              <span class="t-tag">Tokenisation</span>
+              <span class="t-tag">Embeddings</span>
+              <span class="t-tag">Prompt Techniques</span>
+              <span class="t-tag">RAG Chains</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd Semester -->
+        <div class="timeline-item current-milestone">
+          <div class="timeline-dot current">
+            <span class="dot-inner"></span>
+            <span class="dot-pulse"></span>
+          </div>
+          <div class="timeline-card current-card">
+            <div class="timeline-header">
+              <div class="timeline-sem-pill active-pill">3rd Semester &bull; Year 2 <span class="active-dot"></span> Current</div>
+              <span class="timeline-year"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/></svg> 2026</span>
+            </div>
+            <ul class="journey-points">
+              <li><strong>Backend Development:</strong> Node.js and Express.js REST APIs</li>
+              <li><strong>Algorithms:</strong> Data Structures &amp; Algorithms (DSA) problem solving</li>
+              <li><strong>CS Fundamentals:</strong> Operating Systems (OS), Computer Networks (CN), DBMS, and OOPs</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="t-tag highlight">Node.js</span>
+              <span class="t-tag highlight">Express.js</span>
+              <span class="t-tag highlight">DSA</span>
+              <span class="t-tag highlight">OS</span>
+              <span class="t-tag highlight">CN</span>
+              <span class="t-tag highlight">DBMS</span>
+              <span class="t-tag highlight">OOPs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Candidate Skillset &bull; Tech Stack</span>
+        <h2 class="section-title">Technical <span class="accent">Proficiencies</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">A balanced engineering profile combining core computer science problem-solving with hands-on full-stack development and modern GenAI integrations.</p>
+      </div>
+
+      <!-- Recruiter Quick-Scan Value Banner -->
+      <div class="recruiter-highlight-banner">
+        <div class="highlight-item">
+          <div class="highlight-icon">⚡</div>
+          <div class="highlight-text">
+            <strong>MERN Specialist</strong>
+            <span>Production React &amp; Node.js</span>
+          </div>
+        </div>
+        <div class="highlight-divider"></div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🧠</div>
+          <div class="highlight-text">
+            <strong>DSA &amp; Problem Solving</strong>
+            <span>Data Structures in C++</span>
+          </div>
+        </div>
+        <div class="highlight-divider"></div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🤖</div>
+          <div class="highlight-text">
+            <strong>GenAI &amp; Workflows</strong>
+            <span>RAG Chains &amp; n8n Agents</span>
+          </div>
+        </div>
+        <div class="highlight-divider"></div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🏆</div>
+          <div class="highlight-text">
+            <strong>Hackathon Finalist</strong>
+            <span>Rapid Prototyping &amp; Build</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Spacious, Eye-Catching Domain Cards -->
+      <div class="skills-grid-clean">
+
+        <!-- Card 1: Full-Stack & MERN Engineering -->
+        <div class="skill-card-modern">
+          <div class="card-top-row">
+            <div class="card-badge primary-badge">⭐ Primary Focus</div>
+            <span class="card-experience">Full-Stack Web</span>
+          </div>
+          <h3 class="card-heading">MERN &amp; Next.js Engineering</h3>
+          <p class="card-desc">Building robust, scalable end-to-end applications with modern component state, responsive UI, and secure RESTful backend APIs.</p>
+          <div class="tech-chips-flow">
+            <!-- 1. Next.js -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" style="filter: invert(1);"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Next.js 15</span>
+                <span class="chip-sub">App Router &bull; SSR</span>
+              </div>
+            </div>
+            <!-- 2. React.js -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">React.js</span>
+                <span class="chip-sub">SPA &bull; Hooks State</span>
+              </div>
+            </div>
+            <!-- 3. Node.js -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Node.js</span>
+                <span class="chip-sub">Async Runtime</span>
+              </div>
+            </div>
+            <!-- 4. Express.js -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express.js" style="filter: invert(1);"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Express.js</span>
+                <span class="chip-sub">REST Middleware</span>
+              </div>
+            </div>
+            <!-- 5. MongoDB -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">MongoDB</span>
+                <span class="chip-sub">NoSQL Aggregations</span>
+              </div>
+            </div>
+            <!-- 6. JavaScript -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">JavaScript</span>
+                <span class="chip-sub">ES6+ &bull; Deep Core</span>
+              </div>
+            </div>
+            <!-- 7. Tailwind CSS -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Tailwind CSS</span>
+                <span class="chip-sub">Modern Responsive</span>
+              </div>
+            </div>
+            <!-- 8. HTML5 & CSS3 -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">HTML5 &amp; CSS3</span>
+                <span class="chip-sub">Semantic Web Standards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: DSA & C++ -->
+        <div class="skill-card-modern">
+          <div class="card-top-row">
+            <div class="card-badge dsa-badge">🧠 Core Foundation</div>
+            <a href="https://leetcode.com/u/shreyash-coder40/" target="_blank" rel="noopener noreferrer" class="card-experience" style="text-decoration: none; color: #38bdf8; display: inline-flex; align-items: center; gap: 6px;">
+              <span>LeetCode Profile ↗</span>
+            </a>
+          </div>
+          <h3 class="card-heading">DSA &amp; C++ Problem Solving</h3>
+          <p class="card-desc">Strong grasp of low-level memory efficiency, pointers, and algorithmic problem-solving with optimal time and space complexity.</p>
+          <div class="tech-chips-flow">
+            <!-- 1. C++ -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">C++ Language</span>
+                <span class="chip-sub">Modern C++ &bull; Memory</span>
+              </div>
+            </div>
+            <!-- 2. Data Structures -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><path d="M12 8v4m0 0l-5 4m5-4l5 4"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Data Structures</span>
+                <span class="chip-sub">Trees, Graphs, Heaps</span>
+              </div>
+            </div>
+            <!-- 3. Algorithms -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Algorithms</span>
+                <span class="chip-sub">DP &bull; Two-Pointer</span>
+              </div>
+            </div>
+            <!-- 4. C++ STL -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">C++ STL</span>
+                <span class="chip-sub">Vectors, Maps, Sets</span>
+              </div>
+            </div>
+            <!-- 5. Complexity Analysis -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Big-O Analysis</span>
+                <span class="chip-sub">Optimal Complexity</span>
+              </div>
+            </div>
+            <!-- 6. OOPs in C++ -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">OOPs in C++</span>
+                <span class="chip-sub">Classes &bull; Polymorphism</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: GenAI & Automation -->
+        <div class="skill-card-modern">
+          <div class="card-top-row">
+            <div class="card-badge ai-badge">🚀 Modern Innovation</div>
+            <span class="card-experience">Next-Gen AI Stack</span>
+          </div>
+          <h3 class="card-heading">GenAI &amp; Automation Workflows</h3>
+          <p class="card-desc">Practical expertise exploring LLM integration, semantic vector search, prompt engineering, and automated agent workflows.</p>
+          <div class="tech-chips-flow">
+            <!-- 1. Python -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Python</span>
+                <span class="chip-sub">AI &bull; Backend Logic</span>
+              </div>
+            </div>
+            <!-- 2. RAG Chains -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">RAG Chains</span>
+                <span class="chip-sub">Knowledge Grounding</span>
+              </div>
+            </div>
+            <!-- 3. LLM Systems -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V11a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2V9.5C8.8 8.8 8 7.5 8 6a4 4 0 0 1 4-4z"/><circle cx="12" cy="18" r="3"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">LLM Systems</span>
+                <span class="chip-sub">Inference &bull; APIs</span>
+              </div>
+            </div>
+            <!-- 4. Vector Embeddings -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Vector Search</span>
+                <span class="chip-sub">Semantic Embeddings</span>
+              </div>
+            </div>
+            <!-- 5. Prompt Engineering -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Prompt Eng.</span>
+                <span class="chip-sub">Few-Shot &bull; Reasoning</span>
+              </div>
+            </div>
+            <!-- 6. n8n Automation -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">n8n Automation</span>
+                <span class="chip-sub">Agent Webhooks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: CS Core & Tools -->
+        <div class="skill-card-modern">
+          <div class="card-top-row">
+            <div class="card-badge cs-badge">💻 Systems &amp; Tooling</div>
+            <span class="card-experience">Engineering Discipline</span>
+          </div>
+          <h3 class="card-heading">Computer Science Core &amp; Tooling</h3>
+          <p class="card-desc">Academic excellence across core computer systems, relational database architecture, and professional Git collaboration workflows.</p>
+          <div class="tech-chips-flow">
+            <!-- 1. Operating Systems -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="20"/><line x1="15" y1="20" x2="15" y2="20"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Operating Systems</span>
+                <span class="chip-sub">Processes &bull; Threads</span>
+              </div>
+            </div>
+            <!-- 2. Computer Networks -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Networks</span>
+                <span class="chip-sub">TCP/IP, HTTP/S</span>
+              </div>
+            </div>
+            <!-- 3. DBMS & SQL -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">DBMS &amp; SQL</span>
+                <span class="chip-sub">Relational Schema &bull; ACID</span>
+              </div>
+            </div>
+            <!-- 4. Git & GitHub -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Git &amp; GitHub</span>
+                <span class="chip-sub">Version Control &bull; CI/CD</span>
+              </div>
+            </div>
+            <!-- 5. Postman -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">Postman</span>
+                <span class="chip-sub">API Testing &bull; Docs</span>
+              </div>
+            </div>
+            <!-- 6. VS Code & Linux -->
+            <div class="tech-chip">
+              <div class="chip-icon-wrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"/>
+              </div>
+              <div class="chip-details">
+                <span class="chip-title">VS Code &amp; Linux</span>
+                <span class="chip-sub">Dev Env &bull; Terminal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Live Coding & Development Metrics Row (Side-by-Side: LeetCode & GitHub) -->
+      <div class="coding-metrics-row">
+        <!-- Live LeetCode Summary Card (Dynamic DSA Metrics for @shreyash-coder40) -->
+        <div class="leetcode-summary-card" id="leetcode-summary-card">
+          <div class="leetcode-card-header">
+            <div class="leetcode-brand-group">
+              <div class="leetcode-logo-wrap">
+                <svg viewBox="0 0 24 24" class="leetcode-svg" fill="currentColor">
+                  <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.762-1.823.762s-1.357-.295-1.824-.762L4.015 14.8c-.467-.467-.762-1.111-.762-1.823s.295-1.357.762-1.824l5.743-5.744c.467-.467 1.111-.762 1.824-.762s1.357.295 1.823.762l2.697 2.607a1.05 1.05 0 0 0 1.487-1.487l-2.697-2.607C13.567 3.033 12.164 2.5 10.582 2.5s-2.985.533-4.07 1.618L.769 9.862C-.316 10.947-.85 12.35-.85 13.932s.534 2.985 1.619 4.07l5.743 5.743c1.085 1.086 2.488 1.619 4.07 1.619s2.985-.533 4.07-1.619l2.697-2.607a1.05 1.05 0 1 0-1.447-1.517zM10.825 13.932h11.125a1.05 1.05 0 1 0 0-2.1H10.825a1.05 1.05 0 1 0 0 2.1z"/>
+                </svg>
+              </div>
+              <div class="leetcode-title-col">
+                <div class="leetcode-title-row">
+                  <h3 class="leetcode-title">LeetCode Performance</h3>
+                  <span class="leetcode-live-tag">
+                    <span class="hire-pulse-dot"></span> Live API
+                  </span>
+                </div>
+                <span class="leetcode-username">@shreyash-coder40</span>
+              </div>
+            </div>
+            <div class="leetcode-header-actions">
+              <span class="leetcode-rank-badge" id="lc-ranking-badge">
+                🏆 Rank: <strong id="lc-ranking-val">Top ~1.39M</strong>
+              </span>
+              <a href="https://leetcode.com/u/shreyash-coder40/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm lc-profile-btn">
+                <span>View Profile</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="leetcode-body-grid">
+            <!-- Solved Gauge / Total Counter -->
+            <div class="leetcode-total-box">
+              <div class="leetcode-circle-gauge">
+                <svg class="gauge-svg" viewBox="0 0 120 120">
+                  <circle class="gauge-bg" cx="60" cy="60" r="50" />
+                  <circle class="gauge-fill-easy" id="gauge-easy" cx="60" cy="60" r="50" />
+                </svg>
+                <div class="gauge-center-content">
+                  <span class="gauge-num" id="lc-total-solved">127</span>
+                  <span class="gauge-sub">Solved</span>
+                </div>
+              </div>
+              <div class="gauge-legend">
+                <span class="legend-item"><span class="dot-easy"></span> Easy</span>
+                <span class="legend-item"><span class="dot-med"></span> Med</span>
+                <span class="legend-item"><span class="dot-hard"></span> Hard</span>
+              </div>
+            </div>
+
+            <!-- Difficulty Progress Bars -->
+            <div class="leetcode-diff-bars">
+              <!-- Easy -->
+              <div class="diff-bar-item">
+                <div class="diff-bar-header">
+                  <span class="diff-title easy-text">Easy</span>
+                  <span class="diff-count"><strong id="lc-easy-solved">60</strong> / <span id="lc-easy-total">971</span></span>
+                </div>
+                <div class="diff-track">
+                  <div class="diff-fill fill-easy" id="lc-easy-bar" style="width: 15.5%;"></div>
+                </div>
+              </div>
+
+              <!-- Medium -->
+              <div class="diff-bar-item">
+                <div class="diff-bar-header">
+                  <span class="diff-title med-text">Medium</span>
+                  <span class="diff-count"><strong id="lc-med-solved">53</strong> / <span id="lc-med-total">2128</span></span>
+                </div>
+                <div class="diff-track">
+                  <div class="diff-fill fill-med" id="lc-med-bar" style="width: 6.2%;"></div>
+                </div>
+              </div>
+
+              <!-- Hard -->
+              <div class="diff-bar-item">
+                <div class="diff-bar-header">
+                  <span class="diff-title hard-text">Hard</span>
+                  <span class="diff-count"><strong id="lc-hard-solved">14</strong> / <span id="lc-hard-total">983</span></span>
+                </div>
+                <div class="diff-track">
+                  <div class="diff-fill fill-hard" id="lc-hard-bar" style="width: 3.5%;"></div>
+                </div>
+              </div>
+
+              <!-- Recent Problems Ticker -->
+              <div class="recent-solved-ticker">
+                <span class="recent-label">⚡ Recent Accepted:</span>
+                <div class="recent-pill-list" id="lc-recent-list">
+                  <span class="recent-problem-pill">Balanced Binary Tree <span class="lang-tag">C++</span></span>
+                  <span class="recent-problem-pill">Binary Tree Inorder <span class="lang-tag">C++</span></span>
+                  <span class="recent-problem-pill">Valid Parentheses <span class="lang-tag">C++</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live GitHub Streak Stats Card (@Shreyash-coder40) -->
+        <div class="github-summary-card" id="github-summary-card">
+          <div class="github-card-header">
+            <div class="github-brand-group">
+              <div class="github-logo-wrap">
+                <svg viewBox="0 0 24 24" class="github-svg" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="github-title-col">
+                <div class="github-title-row">
+                  <h3 class="github-title">GitHub Contributions</h3>
+                  <span class="github-live-tag">
+                    <span class="hire-pulse-dot"></span> Live Streak API
+                  </span>
+                </div>
+                <span class="github-username">@Shreyash-coder40</span>
+              </div>
+            </div>
+            <div class="github-header-actions">
+              <a href="https://github.com/Shreyash-coder40" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm gh-profile-btn">
+                <span>View GitHub</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Streak Metrics 3-Column Display (Total Contributions | Current Streak | Longest Streak) -->
+          <div class="gh-streak-card-body">
+            <div class="gh-streak-grid">
+              <!-- 1. Total Contributions -->
+              <div class="streak-col streak-total-col">
+                <div class="streak-big-num" id="gh-total-contribs">656</div>
+                <div class="streak-label">Total Contributions</div>
+                <div class="streak-date" id="gh-first-date">Jun 17, 2025 - Present</div>
+              </div>
+
+              <!-- Vertical Divider -->
+              <div class="streak-divider"></div>
+
+              <!-- 2. Current Streak with Circular Flame Gauge -->
+              <div class="streak-col streak-current-col">
+                <div class="streak-flame-gauge">
+                  <svg class="streak-gauge-svg" viewBox="0 0 100 100">
+                    <defs>
+                      <mask id="gh-streak-ring-mask">
+                        <rect width="100" height="100" fill="white" />
+                        <ellipse cx="50" cy="16" rx="12" ry="12" fill="black" />
+                      </mask>
+                    </defs>
+                    <circle class="streak-ring-glow" cx="50" cy="54" r="38" mask="url(#gh-streak-ring-mask)" />
+                    <circle class="streak-ring-main" cx="50" cy="54" r="38" mask="url(#gh-streak-ring-mask)" />
+                    <g class="streak-flame-glyph" transform="translate(50, 5)">
+                      <path d="M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z" />
+                    </g>
+                  </svg>
+                  <div class="streak-current-val" id="gh-current-streak">4</div>
+                </div>
+                <div class="streak-label streak-label-accent">Current Streak</div>
+                <div class="streak-date" id="gh-current-dates">Oct 11 - Oct 14</div>
+              </div>
+
+              <!-- Vertical Divider -->
+              <div class="streak-divider"></div>
+
+              <!-- 3. Longest Streak -->
+              <div class="streak-col streak-longest-col">
+                <div class="streak-big-num" id="gh-longest-streak">18</div>
+                <div class="streak-label">Longest Streak</div>
+                <div class="streak-date" id="gh-longest-dates">Jun 27 - Jul 14</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Have Built</span>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <!-- 1. NEXTSHOP E-COMMERCE PLATFORM (FEATURED PROJECT) -->
+        <div class="project-card featured-project-card">
+          <div class="project-img-wrap" id="nextshop-preview-trigger" title="Click to view full preview">
+            <div class="mini-browser-bar">
+              <div class="mini-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="mini-url">nextshop-coral-rho.vercel.app</span>
+              <span class="mini-zoom-hint">🔍 Expand</span>
+            </div>
+            <img src="assets/nextshop.png?v=2" alt="NextShop — Modern E-Commerce Platform Screenshot" class="project-img" loading="eager" />
+            <div class="project-badge-live">
+              <span class="live-pulse-dot"></span> Live
+            </div>
+          </div>
+          <div class="project-card-header">
+            <div class="project-icon">🛒</div>
+            <div class="project-links">
+              <a href="https://nextshop-coral-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="proj-link" title="Live Preview (Vercel)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+              <a href="https://github.com/Shreyash-coder40/E-commerce-Website" target="_blank" rel="noopener noreferrer" class="proj-link" title="Source Code (GitHub)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg></a>
+            </div>
+          </div>
+          <h3 class="project-title">NextShop — E-Commerce</h3>
+          <p class="project-desc">A full-featured production marketplace featuring authentic multi-category items, real-time "Best Deals of the Day" with live countdowns, user authentication, and cart management.</p>
+          <div class="project-tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">React</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">Vercel</span>
+          </div>
+          <div class="project-cta-row">
+            <a href="https://nextshop-coral-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo 🚀</a>
+            <a href="https://github.com/Shreyash-coder40/E-commerce-Website" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 2. ECO-COMMAND MUNICIPAL WASTE MANAGEMENT -->
+        <div class="project-card">
+          <div class="project-img-wrap" id="ecocommand-preview-trigger" title="Click to view full preview">
+            <div class="mini-browser-bar">
+              <div class="mini-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="mini-url">eco-command.municipal-fleet</span>
+              <span class="mini-zoom-hint">🔍 Expand</span>
+            </div>
+            <img src="assets/ecocommand.png" alt="Eco-Command — Municipal Waste Management & Fleet Tracking" class="project-img" loading="eager" />
+            <div class="project-badge-live">
+              <span class="live-pulse-dot"></span> IoT + AI
+            </div>
+          </div>
+          <div class="project-card-header">
+            <div class="project-icon">♻️</div>
+            <div class="project-links">
+              <a href="https://www.youtube.com/watch?v=Ys-yf6mtv4s" target="_blank" rel="noopener noreferrer" class="proj-link" title="Video Demo & Workflow (YouTube)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+              <a href="https://github.com/Shreyash-coder40/MUNICIPAL_PARTY_WASTE_SEGREGATION_WEBSITE" target="_blank" rel="noopener noreferrer" class="proj-link" title="Source Code (GitHub)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg></a>
+            </div>
+          </div>
+          <h3 class="project-title">Eco-Command — Waste Management</h3>
+          <p class="project-desc">IoT & AI municipal dashboard featuring live Ola Maps fleet tracking, Firebase real-time bin monitoring, automated AI sorting, and multilingual voice assistant.</p>
+          <div class="project-tags">
+            <span class="tag">IoT / ESP32</span>
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Ola Maps</span>
+            <span class="tag">Firebase</span>
+          </div>
+          <div class="project-cta-row">
+            <a href="https://www.youtube.com/watch?v=Ys-yf6mtv4s" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Watch Demo 🎥</a>
+            <a href="https://github.com/Shreyash-coder40/MUNICIPAL_PARTY_WASTE_SEGREGATION_WEBSITE" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- 3. APEX VISA IMMIGRATION & EDUCATION CONSULTANCY -->
+        <div class="project-card">
+          <div class="project-img-wrap" id="apexvisa-preview-trigger" title="Click to view full preview">
+            <div class="mini-browser-bar">
+              <div class="mini-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="mini-url">visa-portal-six.vercel.app</span>
+              <span class="mini-zoom-hint">🔍 Expand</span>
+            </div>
+            <img src="assets/apexvisa.png" alt="ApexVisa — Education & Immigration Consultancy Platform" class="project-img" loading="eager" />
+            <div class="project-badge-live">
+              <span class="live-pulse-dot"></span> Live on Vercel
+            </div>
+          </div>
+          <div class="project-card-header">
+            <div class="project-icon">✈️</div>
+            <div class="project-links">
+              <a href="https://visa-portal-six.vercel.app/" target="_blank" rel="noopener noreferrer" class="proj-link" title="Live Preview (Vercel)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15,3 21,3 21,9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+              <a href="https://github.com/Shreyash-coder40/APEX-visa-consultancy" target="_blank" rel="noopener noreferrer" class="proj-link" title="Source Code (GitHub)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg></a>
+            </div>
+          </div>
+          <h3 class="project-title">ApexVisa — Immigration Portal</h3>
+          <p class="project-desc">Modern marketing site for an education & visa consultancy featuring interactive eligibility assessment, country carousels, student roadmap, and lead capture.</p>
+          <div class="project-tags">
+            <span class="tag">React 19</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Lucide</span>
+            <span class="tag">Vercel</span>
+          </div>
+          <div class="project-cta-row">
+            <a href="https://visa-portal-six.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo 🚀</a>
+            <a href="https://github.com/Shreyash-coder40/APEX-visa-consultancy" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-footer">
+        <p>Want to see more of my work?</p>
+        <a href="https://github.com/Shreyash-coder40" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View All on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Achievements and <span class="accent">Milestones</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="ach-glow"></div>
+          <div class="ach-icon">🏆</div>
+          <div class="ach-content">
+            <h3>OpenAI Academy Buildathon — Finalist</h3>
+            <p>Participated in the 2-day <strong>OpenAI Academy &times; NxtWave Regional Buildathon (Rajasthan)</strong>, architecting and shipping working AI solutions.</p>
+            <div class="cert-preview-wrap" data-cert="buildathon" title="Click to View Full Certificate">
+              <img src="assets/cert-buildathon.png" alt="OpenAI Academy x NxtWave Buildathon Certificate — Shreyash Debnath" class="cert-thumb-img" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <span>🔍 View Certificate</span>
+              </div>
+            </div>
+            <div class="ach-footer-row">
+              <span class="ach-tag">OpenAI Academy &bull; NIAT</span>
+              <a href="https://cdn1.ccbp.in/misc/openai-rg-c/GG2ZO1SFVZ.png" target="_blank" rel="noopener noreferrer" class="cert-proof-btn" title="Open Official Certificate Link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                <span>Certificate Proof ↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="ach-glow"></div>
+          <div class="ach-icon">🥇</div>
+          <div class="ach-content">
+            <h3>Takeover Hackathon — Finalist</h3>
+            <p>Selected as a <strong>finalist in the Takeover Hackathon</strong> by NIAT (NxtWave of Innovation in Advanced Technologies), building under intense pressure.</p>
+            <div class="cert-preview-wrap" data-cert="takeover" title="Click to View Full Certificate">
+              <img src="assets/cert-takeover.png" alt="NIAT Takeover Hackathon Certificate — Shreyash Debnath" class="cert-thumb-img" loading="lazy" />
+              <div class="cert-thumb-overlay">
+                <span>🔍 View Certificate</span>
+              </div>
+            </div>
+            <div class="ach-footer-row">
+              <span class="ach-tag">NIAT Jaipur &bull; VGU</span>
+              <a href="https://s3-ap-south-1.amazonaws.com/poster-generation-backend-nxtwave-media-static/misc/NIAT-HACKATHON-CER/TZ88ZPCGQ2.png" target="_blank" rel="noopener noreferrer" class="cert-proof-btn" title="Open Official Certificate Link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                <span>Certificate Proof ↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card gold-card">
+          <div class="ach-glow ach-glow-gold"></div>
+          <div class="ach-icon">🇮🇳</div>
+          <div class="ach-content">
+            <h3>SIH 2026 — Rank Under 100</h3>
+            <p>Qualified in the campus evaluation round of the prestigious <strong>Smart India Hackathon (SIH 2026)</strong> by securing a <strong>Rank Under 100</strong> among competing engineering teams.</p>
+            <div class="sih-milestone-box">
+              <div class="sih-badge-center">
+                <span class="sih-icon-large">🏆</span>
+                <span class="sih-rank-text">RANK &lt; 100</span>
+                <span class="sih-sub-text">Smart India Hackathon &bull; Campus Round</span>
+              </div>
+            </div>
+            <div class="ach-footer-row">
+              <span class="ach-tag gold-tag">Rank Under 100 &bull; Campus Round</span>
+              <span class="cert-status-badge">🇮🇳 SIH 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item"><span class="stat-num" data-count="3">0</span><span class="stat-label">Hackathons</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-count="10">0</span><span class="stat-label">Projects Built</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-count="8">0</span><span class="stat-label">Technologies</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num" data-count="100" data-prefix="&lt;" data-suffix="">0</span><span class="stat-label">SIH Campus Rank</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let us <span class="accent">Connect</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">I am currently open to internships, freelance projects, and collaboration opportunities. Feel free to reach out — I respond quickly! 🚀</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div class="contact-detail-wrap">
+                <span class="c-label">Email</span>
+                <div class="c-email-row">
+                  <a href="mailto:shreyashdebnath2@gmail.com" class="c-value" id="contact-email-link">shreyashdebnath2@gmail.com</a>
+                  <button type="button" class="copy-email-badge" id="copy-email-btn" aria-label="Copy email address" title="Click to copy email">
+                    <svg class="copy-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span class="copy-label">Copy</span>
+                    <span class="copy-tooltip" id="copy-tooltip">Copied to clipboard! 📋</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div>
+              <div class="contact-detail-wrap">
+                <span class="c-label">Phone</span>
+                <span class="c-value"><a href="tel:+919770798613" class="c-phone-link" id="contact-phone-link">+91 9770798613</a></span>
+              </div>
+            </div>
+            <div class="contact-item"><div class="contact-icon">🏫</div><div><span class="c-label">College</span><span class="c-value">NIAT VGU, Jaipur</span></div></div>
+            <div class="contact-item"><div class="contact-icon">📍</div><div><span class="c-label">Location</span><span class="c-value">Jaipur, Rajasthan, India</span></div></div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/Shreyash-coder40" target="_blank" rel="noopener noreferrer" class="contact-social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+            <a href="https://www.linkedin.com/in/shreyash-debnath-0719a93a1" target="_blank" rel="noopener noreferrer" class="contact-social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg> LinkedIn</a>
+            <a href="https://leetcode.com/u/shreyash-coder40/" target="_blank" rel="noopener noreferrer" class="contact-social-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.762-1.823.762s-1.357-.295-1.824-.762L4.015 14.8c-.467-.467-.762-1.111-.762-1.823s.295-1.357.762-1.824l5.743-5.744c.467-.467 1.111-.762 1.824-.762s1.357.295 1.823.762l2.697 2.607a1.05 1.05 0 0 0 1.487-1.487l-2.697-2.607C13.567 3.033 12.164 2.5 10.582 2.5s-2.985.533-4.07 1.618L.769 9.862C-.316 10.947-.85 12.35-.85 13.932s.534 2.985 1.619 4.07l5.743 5.743c1.085 1.086 2.488 1.619 4.07 1.619s2.985-.533 4.07-1.619l2.697-2.607a1.05 1.05 0 1 0-1.447-1.517zM10.825 13.932h11.125a1.05 1.05 0 1 0 0-2.1H10.825a1.05 1.05 0 1 0 0 2.1z"/></svg> LeetCode</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" name="name" placeholder="John Doe" required /></div>
+          <div class="form-group"><label for="email">Your Email</label><input type="email" id="email" name="email" placeholder="john@example.com" required /></div>
+          <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="Project Collaboration" /></div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Hey Shreyash, I would love to work with you on..." required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">Send Message 🚀</button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Shreyash Debnath</p>
+      <p class="footer-copy">2025–2026 — Crafted with ❤️ and lots of ☕ — Full Stack Developer @ NIAT Jaipur</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/shreyash-resume.pdf" target="_blank">Resume (PDF)</a>
+        <a href="https://github.com/Shreyash-coder40" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/shreyash-debnath-0719a93a1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://leetcode.com/u/shreyash-coder40/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Interactive Fullscreen Resume Modal -->
+  <div class="resume-modal" id="resume-modal" role="dialog" aria-modal="true" aria-label="Shreyash Debnath Resume Preview">
+    <div class="resume-overlay" id="resume-overlay"></div>
+    <div class="resume-wrapper">
+      <div class="resume-header">
+        <div class="resume-title-group">
+          <span class="resume-badge">📄 Official Curriculum Vitae</span>
+          <h3 class="resume-title">Shreyash Debnath — <span class="accent">Software Engineering</span></h3>
+        </div>
+        <div class="resume-actions">
+          <a href="assets/shreyash-resume.pdf" download="Shreyash_Debnath_Resume.pdf" class="btn btn-primary btn-sm" id="modal-download-btn">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            <span>Download PDF</span>
+          </a>
+          <a href="assets/shreyash-resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            <span>Open in Tab ↗</span>
+          </a>
+          <button type="button" class="resume-close" id="resume-close" aria-label="Close Resume Modal">&times;</button>
+        </div>
+      </div>
+      <div class="resume-body">
+        <iframe src="assets/shreyash-resume.pdf#toolbar=1" class="resume-iframe" title="Shreyash Debnath Resume PDF Preview"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- NextShop Fullscreen Lightbox Modal -->
+  <div class="image-lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-label="NextShop Full Preview">
+    <div class="lightbox-overlay" id="lightbox-overlay"></div>
+    <div class="lightbox-wrapper">
+      <div class="lightbox-header">
+        <div class="lightbox-title">
+          <span class="accent">NextShop</span> — High-Resolution Store Preview
+        </div>
+        <div class="lightbox-actions">
+          <a href="https://nextshop-coral-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Open Store ↗</a>
+          <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        </div>
+      </div>
+      <div class="lightbox-body">
+        <img src="assets/nextshop.png?v=2" alt="NextShop Full Resolution Store Screenshot" class="lightbox-img" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Interactive CLI Terminal Trigger Button -->
+  <button type="button" class="terminal-trigger-btn" id="terminal-trigger-btn" aria-label="Open Interactive CLI Terminal" title="Press ~ or ` to toggle terminal">
+    <span class="term-btn-pulse"></span>
+    <span class="term-btn-icon">&gt;_</span>
+    <span class="term-btn-label">Terminal</span>
+    <kbd class="term-kbd-hint">~</kbd>
+  </button>
+
+  <!-- Interactive CLI Hacker Terminal Window -->
+  <div class="terminal-drawer" id="terminal-drawer" role="dialog" aria-modal="true" aria-label="Interactive CLI Terminal" aria-hidden="true">
+    <div class="terminal-window">
+      <!-- Titlebar -->
+      <div class="term-titlebar">
+        <div class="term-controls">
+          <button type="button" class="term-ctrl term-close" id="term-close-btn" title="Close (Esc)"></button>
+          <button type="button" class="term-ctrl term-minimize" id="term-min-btn" title="Minimize"></button>
+          <button type="button" class="term-ctrl term-maximize" id="term-max-btn" title="Toggle Fullscreen"></button>
+        </div>
+        <div class="term-title">
+          <span class="term-title-icon">💻</span>
+          <span class="term-title-text">shreyash@portfolio:~ (bash)</span>
+        </div>
+        <div class="term-titlebar-right">
+          <span class="term-status-badge">ONLINE</span>
+          <button type="button" class="term-header-close" id="term-header-close-btn" aria-label="Close terminal">&times;</button>
+        </div>
+      </div>
+
+      <!-- Terminal Body / Output Scroll -->
+      <div class="term-body" id="term-body">
+        <div class="term-output" id="term-output"></div>
+
+        <!-- Active Input Line -->
+        <div class="term-input-line">
+          <span class="term-prompt">
+            <span class="prompt-user">shreyash</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span>:<span class="prompt-path">~</span><span class="prompt-dollar">$</span>
+          </span>
+          <input type="text" class="term-input" id="term-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Terminal command input" />
+        </div>
+      </div>
+
+      <!-- Quick Command Buttons -->
+      <div class="term-quick-bar">
+        <span class="quick-label">⚡ Quick:</span>
+        <button type="button" class="term-quick-pill" data-cmd="help">help</button>
+        <button type="button" class="term-quick-pill" data-cmd="skills">skills</button>
+        <button type="button" class="term-quick-pill" data-cmd="projects">projects</button>
+        <button type="button" class="term-quick-pill" data-cmd="stats">stats</button>
+        <button type="button" class="term-quick-pill" data-cmd="resume">resume</button>
+        <button type="button" class="term-quick-pill" data-cmd="contact">contact</button>
+        <button type="button" class="term-quick-pill" data-cmd="sound" title="Toggle cyber audio effects">sound</button>
+        <button type="button" class="term-quick-pill term-hire-pill" data-cmd="sudo hire-shreyash">sudo hire</button>
+        <button type="button" class="term-quick-pill" data-cmd="clear">clear</button>
+      </div>
+    </div>
+  </div>
+
+  <a href="#home" class="scroll-to-top" id="scroll-top" aria-label="Back to top">↑</a>
+  <!-- EmailJS Browser SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js?v=53"></script>
+</body>
+</html>
